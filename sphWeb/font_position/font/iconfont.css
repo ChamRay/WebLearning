@@ -23,3 +23,15 @@
   content: "\e615";
 }
 
+.icon-xiangyoujiantou:before {
+  content: "\e65f";
+}
+
+.icon-xiangzuojiantou:before {
+  content: "\e660";
+}
+
+.icon-shoucang:before {
+  content: "\e646";
+}
+
