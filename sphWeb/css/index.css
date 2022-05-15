@@ -132,6 +132,7 @@
     height: 45px;
 /*    background: pink;*/
     margin: 0 auto;
+    position: relative;
 }
 .all h2{
     width: 210px;
@@ -157,7 +158,7 @@
 .main{
     width: 1200px;
     height: 461px;
-    background: yellow;
+/*    background: yellow;*/
     margin: 0 auto;
 }
 .main .detail{
@@ -183,7 +184,7 @@
 .main .banner{
     width: 730px;
     height: 454px;
-    background: yellowgreen;
+/*    background: yellowgreen;*/
     float: left;
     margin: 5px 0 0 5px ;
 }
@@ -234,10 +235,53 @@
     background: orangered;
 }
 
+.main .quick{
+    width: 250px;
+    height: 455px;
+/*    background: yellowgreen;*/
+    float: right;
+    margin-top: 5px;
+}
+.quick-top{
+    width: 248px;
+    height: 373px;
+    border: 1px solid #e4e4e4;
+}
+.quick-top .title{
+    height: 37px;
+    border-bottom: 1px solid #e4e4e4;
+    margin: 0 5px;
+}
+.quick-top .list{
+    height: 140px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.quick-top .server{
+    background: url("../img/home/icons.png") no-repeat;
+}
+
+.quick-top .server li{
+    float: left;
+    width: 61px;
+    height: 64px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.quick-top .server .width62{
+    width: 62px;
+    border-right: none;
+}
+.quick-top .server li a{
+    display: block;
+    /*父元素高度的百分比*/
+    height: 100%;
+}
+
+
 .phone{
     width: 1200px;
     height: 330px;
-    background: pink;
+/*    background: pink;*/
     margin:0 auto;
 }
 .phone>.box{
@@ -281,7 +325,7 @@
 .menu{
     width: 1200px;
     height: 340px;
-    background: yellow;
+/*    background: yellow;*/
     margin:10px auto 0;
 }
 .menu .sq{
@@ -370,4 +414,42 @@
     line-height: 18px;
     font-size: 14px;
     margin-top: 17px;
+}
+.man{
+    width: 360px;
+    height: 800px;
+    background: url("../img/man.png") no-repeat 0 0;
+    position: absolute;
+    left: -360px;
+    top: 0;
+}
+.woman{
+    width: 360px;
+    height: 800px;
+    background: url("../img/woman.png") no-repeat 0 0;
+    position: absolute;
+    right: -360px;
+    top: 0;
+}
+
+.advLeftBottom{
+    width: 360px;
+    height: 570px;
+    background: url("../img/qiuLeft.png") no-repeat 0 0;
+    position: fixed;
+    left: 50%;
+    margin-left: -960px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.advRightBottom{
+    width: 360px;
+    height: 570px;
+    background: url("../img/qiuRight.png") no-repeat 0 0;
+    position: fixed;
+    right: 50%;
+    margin-right: -960px;
+    bottom: 0;
+    z-index: -1;
 }
