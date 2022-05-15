@@ -27,6 +27,53 @@
     margin-top: 7px;
    /* margin-right: 5px;*/
 }
+/*下拉菜单*/
+.header .list-left .city{
+    height: 30px;
+    position: relative;
+}
+.header .list-left .city a{
+    padding: 0 5px;
+    border: 1px solid transparent;
+    border-bottom: none;
+    height: 29px;
+    line-height: 28px;
+    position: relative;
+    z-index: 5;
+}
+/*城市列表*/
+.header .list-left .city div{
+    width: 320px;
+    height: 450px;
+    background: #fff;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 4;
+    display: none;
+    top: 29px;
+    left: 0;
+    /*right: 50%;
+    right:50%;
+    margin-top: 30px;
+    margin-right: 278px;*/
+
+}
+/*鼠标移入a*/
+.header .list-left .city:hover a{
+    border-color: red;
+    background: #fff;
+}
+/*鼠标移入li让div显示*/
+.header .list-left .city:hover>div{
+    display: block;
+}
+.header .list-left .city a i{
+    float: left;
+    margin-right: 3px;
+}
+.header .list-left .city a span{
+    float: left;
+}
 
 .header .list-right{
     float: right;
